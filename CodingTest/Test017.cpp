@@ -1,7 +1,3 @@
-#include <vector>
-
-using namespace std;
-
 // Definition for singly-linked list.
 struct ListNode {
     int val;
@@ -18,11 +14,22 @@ public:
         ListNode* res = new ListNode;
         ListNode* temp = res;
 
+        // 노드에 아무것도 없을 때
         if (head == nullptr)
         {
             return res->next;
         }
 
+        // 노드가 하나일 때
+        if (head->next == nullptr)
+        {
+            temp->val = head->val;
+            temp->next = head->next;
+
+            return res;
+        }
+
+        // 노드가 2개 이상
         while (head->next != nullptr)
         {
             temp->val = head->next->val;
@@ -62,7 +69,6 @@ int main()
     //ListNode* list = new ListNode(1);
     ListNode* list = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6))))));
     //ListNode* list = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6, new ListNode(7)))))));
-    //ListNode* list = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4))));
     sol.swapPairs(list);
 
     return 0;
