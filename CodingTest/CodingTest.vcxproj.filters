@@ -1,15 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Test001.cpp" />
-    <ClCompile Include="Test002.cpp" />
-    <ClCompile Include="Test003.cpp" />
-    <ClCompile Include="Test004.cpp" />
-    <ClCompile Include="Test009.cpp" />
-    <ClCompile Include="Test013.cpp" />
-    <ClCompile Include="Test014.cpp" />
-    <ClCompile Include="Test015.cpp" />
-    <ClCompile Include="Test016.cpp" />
-    <ClCompile Include="Test017.cpp" />
+    <ClCompile Include="Test009.cpp">
+      <Filter>1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test001.cpp">
+      <Filter>1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test002.cpp">
+      <Filter>1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test003.cpp">
+      <Filter>1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test004.cpp">
+      <Filter>1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test013.cpp">
+      <Filter>2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test014.cpp">
+      <Filter>2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test015.cpp">
+      <Filter>2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test016.cpp">
+      <Filter>2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test017.cpp">
+      <Filter>2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test018.cpp">
+      <Filter>2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test019.cpp">
+      <Filter>2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test011.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test012.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="1주차">
+      <UniqueIdentifier>{3f05b9b8-ce46-4b02-99d8-19968b907f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2주차">
+      <UniqueIdentifier>{7b893485-1e5f-4bdb-a6a3-637db68e9d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3주차">
+      <UniqueIdentifier>{b9df24d5-ba3f-41d9-99d6-e26f4beae7c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
