@@ -57,8 +57,8 @@ int main()
 {
     Solution sol;
 
-    ListNode* list1 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))))));
-    ListNode* list2 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
+    ListNode* list1 = new ListNode(2, new ListNode(0, new ListNode(6, new ListNode(1))));
+    ListNode* list2 = new ListNode(6, new ListNode(9, new ListNode(1)));
 
 
     sol.addTwoNumbers(list1, list2);
