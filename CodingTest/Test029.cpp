@@ -10,7 +10,7 @@ public:
         int Jewel = 0;
 
         // 첫 번째 문자열의 각 알파벳을 두 번째 문자열에서 찾아서 제거
-        for (char c : jewels)
+        for (auto c : jewels)
         {
             size_t found = stones.find(c);
 
