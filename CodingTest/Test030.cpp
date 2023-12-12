@@ -15,6 +15,10 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s) 
     {
+        // map의 경우 이진 검색 트리를 사용하며 검색 속도가 O(log n)이다
+        // 하지만 unordered_set의 경우 해시 테이블을 사용하여 요소를 저장하고 검색하기 때문에
+        // 평균적으로 O(1)의 시간 복잡도를 가진다
+        // ※ 해시 테이블 -> 키(Key)와 값(Value)을 연관시켜 저장하는 구조
         unordered_set<char> charSet;
         
         int n = s.length();

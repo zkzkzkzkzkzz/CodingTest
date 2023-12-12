@@ -29,16 +29,31 @@ public:
         ListNode* Temp = Res;
 
         priority_queue<pair<int, ListNode*>, vector<pair<int, ListNode*>>, greater<pair<int, ListNode*>>> pq;
-        for (auto head : lists)  if (head != NULL) pq.push({ head->val, head });
+     
+        for (auto head : lists)
+        {
+            if (head != NULL)
+            {
+                pq.push({ head->val, head });
 
-        while (!pq.empty()) {
+            }
+        }
+       
+        while (!pq.empty()) 
+        {
             ListNode* minNode = pq.top().second;
+
             pq.pop();
-            if (minNode->next != NULL) pq.push({ minNode->next->val, minNode->next });
+
+            if (minNode->next != NULL)
+            {
+                pq.push({ minNode->next->val, minNode->next });
+            }
 
             Temp->next = minNode;
             Temp = Temp->next;
         }
+      
         return Res->next;
     }
 };
