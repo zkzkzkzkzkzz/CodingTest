@@ -9,20 +9,20 @@ class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums)
     {
-        vector<vector<int>> result;
+        vector<vector<int>> Res;
 
-        permuteRecursive(nums, 0, result);
+        permuteRecursive(nums, 0, Res);
 
-        return result;
+        return Res;
     }
 
 private:
-    void permuteRecursive(vector<int>& nums, int index, vector<vector<int>>& result)
+    void permuteRecursive(vector<int>& nums, int index, vector<vector<int>>& res)
     {
         // 인덱스가 마지막 원소를 가리키고 있을 때
         if (index == nums.size() - 1)
         {
-            result.push_back(nums);
+            res.push_back(nums);
 
             return;
         }
@@ -33,7 +33,7 @@ private:
             swap(nums[index], nums[i]);
 
             // 현재 인덱스를 다음으로 올려서 재귀함수를 돌린다
-            permuteRecursive(nums, index + 1, result);
+            permuteRecursive(nums, index + 1, res);
             
             // 재귀를 돌기 전에 교환했던 원소를 원래 상태로 되돌린다
             swap(nums[index], nums[i]);
