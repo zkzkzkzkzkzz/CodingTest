@@ -19,38 +19,43 @@ public:
             graph[src].emplace_back(dst, price);
         }
 
-        vector<int> Price(n, numeric_limits<int>::max());
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> pq;
 
-        // price, src
-        pq.push({0, src});
-        
-        int Stopover = 0;
+        // price, src, stopover
+        pq.push({0, src, 0});
 
-        while (!pq.empty() && Stopover <= k)
+        while (!pq.empty())
         {
-            int CurStop = pq.top().second;
-            int CurPrice = pq.top().first;
+            vector<int> vCur = pq.top();
 
             pq.pop();
+
+            int CurPrice = vCur[0];
+            int CurStop = vCur[1];
+            int CurStopover = vCur[2];
+
+            // 현재 정류장이 목적지라면 현재 저장된 가격을 반환
+            if (CurStop == dst)
+            {
+                return CurPrice;
+            }
+
+            // 경유한 정류장이 k보다 크다면 무시
+            if (CurStopover > k)
+            {
+                continue;
+            }
 
             for (const auto& neighbor : graph[CurStop])
             {
                 int NextStop = neighbor.first;
                 int edgeWeight = neighbor.second;
 
-                int newPrice = CurPrice + edgeWeight;
-                if (newPrice < Price[NextStop])
-                {
-                    Price[NextStop] = newPrice;
-                    pq.push({ newPrice, NextStop });
-                }
+                pq.push({CurPrice + edgeWeight, NextStop, CurStopover + 1});
             }
-
-            ++Stopover;
         }
 
-        return Price[dst] == numeric_limits<int>::max() ? -1 : Price[dst];
+        return -1;
     }
 };
 
