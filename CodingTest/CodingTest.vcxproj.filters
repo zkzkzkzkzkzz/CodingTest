@@ -43,6 +43,39 @@
     <ClCompile Include="Test012.cpp">
       <Filter>3주차</Filter>
     </ClCompile>
+    <ClCompile Include="Test020.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test022.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test027.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test029.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test030.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test031.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test032.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test033.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test034.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test035.cpp">
+      <Filter>3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test040.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="1주차">
@@ -53,6 +86,9 @@
     </Filter>
     <Filter Include="3주차">
       <UniqueIdentifier>{b9df24d5-ba3f-41d9-99d6-e26f4beae7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4주차">
+      <UniqueIdentifier>{c1e4c6e5-3c8c-43d5-9c35-09619d0fe3b2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
