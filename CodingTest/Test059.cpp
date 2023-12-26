@@ -17,7 +17,7 @@ public:
 
         for (size_t i = 0; i < intervals.size(); ++i)
         {
-            // intervals의 원소들을 pair로 pVec에 추가
+            // intervals의 원소들을 pair로 순서대로 pVec에 추가
             pVec.push_back({ intervals[i][0], intervals[i][1] });
         }
 
