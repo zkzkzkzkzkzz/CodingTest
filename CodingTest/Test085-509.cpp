@@ -18,6 +18,23 @@ public:
 
         return left + right;
     }
+
+    // 메모이제이션(Memoization)
+    int arr[31] = { 0 };
+    int fib(int n)
+    {
+        if (n <= 1)
+        {
+            return n;
+        }
+
+        if (arr[n] != 0)
+        {
+            return arr[n];
+        }
+
+        return arr[n] = fib(n - 1) + fib(n - 2);
+    }
 };
 
 
