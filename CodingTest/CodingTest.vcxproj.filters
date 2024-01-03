@@ -76,6 +76,117 @@
     <ClCompile Include="Test040.cpp">
       <Filter>4주차</Filter>
     </ClCompile>
+    <ClCompile Include="Test041.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test042.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test043.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test044.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test045.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test046.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test048.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test049.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test050.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test051.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test052.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test053.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test054.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test055.cpp">
+      <Filter>4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test074.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test058.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test059.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test060.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test061.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test062.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test063.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test064.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test065.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test066.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test067.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test068.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test069.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test070.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test071.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test072.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test073.cpp">
+      <Filter>5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test075-239.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test076-076.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test077-424.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test078-122.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test079-406.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test080-621.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="1주차">
@@ -89,6 +200,12 @@
     </Filter>
     <Filter Include="4주차">
       <UniqueIdentifier>{c1e4c6e5-3c8c-43d5-9c35-09619d0fe3b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5주차">
+      <UniqueIdentifier>{5bf2d9f9-0849-4db5-8c8a-90bfab9dc750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6주차">
+      <UniqueIdentifier>{ea07c528-88be-4f34-884a-520f61fdb33f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -8,7 +8,7 @@ using namespace std;
 
 class Solution {
 public:
-    int leastInterval(vector<char>& tasks, int n) 
+    int leastInterval(vector<char>& tasks, int n)
     {
         priority_queue<pair<int, char>> pq;
         map<char, int> m;
@@ -39,7 +39,7 @@ public:
         // 'A'  -   -  'A'   -   -  'A'         idle 4 == (pqcount - 1) * n
         // 'A' 'B'  -  'A'  'B'  -  'A' 'B'     idle 2
         // 'A' 'B' 'C' 'A'  'B'  -  'A' 'B'     idle 1
-        
+
         int pqcount = pq.top().first;           // 현재 pq에 들어있는 task 중 가장 많은 task의 빈도수
         int Firstpqcount = pqcount - 1;         // 초기 pq의 가장 많은 task의 수 - 1
         int idlecount = (pqcount - 1) * n;      // idle 개수((가장 많은 task의 수 - 1) * n 개 만큼 처음에 생성된다)
@@ -76,7 +76,7 @@ int main()
 {
     Solution sol;
 
-    vector<char> tasks = { 'A', 'B', 'A', 'B', 'B', 'A', 'C'};
+    vector<char> tasks = { 'A', 'B', 'A', 'B', 'B', 'A', 'C' };
 
     sol.leastInterval(tasks, 2);
 
