@@ -187,6 +187,30 @@
     <ClCompile Include="Test080-621.cpp">
       <Filter>6주차</Filter>
     </ClCompile>
+    <ClCompile Include="Test088-198.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test081-134.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test082-455.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test083-169.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test084-241.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test085-509.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test086-053.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Test087-070.cpp">
+      <Filter>6주차</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="1주차">
