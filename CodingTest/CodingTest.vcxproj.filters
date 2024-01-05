@@ -211,6 +211,9 @@
     <ClCompile Include="Test087-070.cpp">
       <Filter>6주차</Filter>
     </ClCompile>
+    <ClCompile Include="Test_비밀지도.cpp">
+      <Filter>7주차</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="1주차">
@@ -230,6 +233,9 @@
     </Filter>
     <Filter Include="6주차">
       <UniqueIdentifier>{ea07c528-88be-4f34-884a-520f61fdb33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7주차">
+      <UniqueIdentifier>{29585fbc-407b-4806-b688-51007747387b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
