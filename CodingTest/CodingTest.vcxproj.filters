@@ -217,6 +217,9 @@
     <ClCompile Include="Test_다트게임.cpp">
       <Filter>7주차</Filter>
     </ClCompile>
+    <ClCompile Include="Test_캐시.cpp">
+      <Filter>7주차</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="1주차">
