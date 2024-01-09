@@ -23,7 +23,6 @@ int solution(string str1, string str2) {
             vStr1.push_back(s);
         }
     }
-
     for (int i = 0; i < str2.size() - 1; ++i)
     {
         if (isalpha(str2[i]) && isalpha(str2[i + 1]))
@@ -122,8 +121,8 @@ int solution(string str1, string str2) {
 
 int main()
 {
-    string str1 = "aaabbcccccccc";
-    string str2 = "aaaabbcccc";
+    string str1 = "FRANCE";
+    string str2 = "french";
 
     solution(str1, str2);
 
