@@ -226,6 +226,9 @@
     <ClCompile Include="Test_뉴스클러스터링.cpp">
       <Filter>7주차</Filter>
     </ClCompile>
+    <ClCompile Include="Test_프렌즈4블록.cpp">
+      <Filter>7주차</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="1주차">
